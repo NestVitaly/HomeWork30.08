@@ -41,18 +41,42 @@
 
 //Домашняя работа: Задача 2
 
-Console.WriteLine("Введите два целых числа");
-int x=Convert.ToInt32 (Console.ReadLine());
-int y=Convert.ToInt32 (Console.ReadLine());
-if (x>y)
+//Console.WriteLine("Введите два целых числа");
+//int x=Convert.ToInt32 (Console.ReadLine());
+//int y=Convert.ToInt32 (Console.ReadLine());
+//if (x>y)
+//{
+//    Console.Write(x+" большее число,а "+y+" меньшее");
+//}
+//else if (x<y)
+//{
+//    Console.Write(y+" большее число,а "+x+" меньшее");
+//}
+//else 
+//{
+//    Console.WriteLine("Введённые данные не отвечают требованиям, либо числа равны");
+//}
+
+//Домашняя работа: Задача 4
+
+Console.WriteLine("Введите три целых числа");
+
+int a=Convert.ToInt32 (Console.ReadLine());
+int b=Convert.ToInt32 (Console.ReadLine());
+int c=Convert.ToInt32 (Console.ReadLine());
+if (a > b && a > c)
 {
-    Console.Write(x+" большее число,а "+y+" меньшее");
+     Console.WriteLine("Максимальное число "+a);
 }
-else if (x<y)
+else if (b > c && b > a)
 {
-    Console.Write(y+" большее число,а "+x+" меньшее");
+     Console.WriteLine("Максимальное число "+b);
+}
+else if (c > a && c > b)
+{
+     Console.WriteLine("Максимальное число "+c);
 }
 else 
 {
-    Console.WriteLine("Введённые данные не отвечают требованиям, либо числа равны");
+    Console.WriteLine("Введены некорректные данные");
 }
