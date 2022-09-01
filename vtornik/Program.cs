@@ -59,24 +59,37 @@
 
 //Домашняя работа: Задача 4
 
-Console.WriteLine("Введите три целых числа");
+//Console.WriteLine("Введите три целых числа");
 
-int a=Convert.ToInt32 (Console.ReadLine());
-int b=Convert.ToInt32 (Console.ReadLine());
-int c=Convert.ToInt32 (Console.ReadLine());
-if (a > b && a > c)
-{
-     Console.WriteLine("Максимальное число "+a);
-}
-else if (b > c && b > a)
-{
-     Console.WriteLine("Максимальное число "+b);
-}
-else if (c > a && c > b)
-{
-     Console.WriteLine("Максимальное число "+c);
-}
-else 
-{
-    Console.WriteLine("Введены некорректные данные");
-}
+//int a=Convert.ToInt32 (Console.ReadLine());
+//int b=Convert.ToInt32 (Console.ReadLine());
+//int c=Convert.ToInt32 (Console.ReadLine());
+//if (a > b && a > c)
+//{
+//     Console.WriteLine("Максимальное число "+a);
+//}
+//else if (b > c && b > a)
+//{
+//     Console.WriteLine("Максимальное число "+b);
+//}
+//else if (c > a && c > b)
+//{
+//     Console.WriteLine("Максимальное число "+c);
+//}
+//else 
+//{
+//    Console.WriteLine("Введены некорректные данные");
+//}
+
+//Домашняя работа: Задача 6
+
+// Console.Write("Введите целое число ");
+// int x=Convert.ToInt32 (Console.ReadLine());
+// if (x%2==0)
+// {
+//     Console.WriteLine("Число "+x+" является чётным");
+// }
+// else
+// {
+//     Console.WriteLine("Число нечетное");
+// }
