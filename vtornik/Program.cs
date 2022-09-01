@@ -93,3 +93,14 @@
 // {
 //     Console.WriteLine("Число нечетное");
 // }
+
+//Домашняя работа: Задача8
+
+Console.Write("Введите целое число ");
+int x=Convert.ToInt32 (Console.ReadLine());
+int i=2;
+while (i<x)
+{
+   Console.WriteLine(i+",");
+   i = i +2;
+}
